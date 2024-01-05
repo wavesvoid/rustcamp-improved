@@ -6,6 +6,23 @@
     - [Prerequisites][nav-1-2]
 2. [Theoretical information][nav-2]
 3. [Knowledge check-in][nav-3]
+    - 3.1. [Memory Model][nav-qa-1]
+    - 3.2. [Runtime][nav-qa-2]
+    - 3.3. [Typing System][nav-qa-3]
+    - 3.4. [Generics][nav-qa-4]
+    - 3.5. [Traits][nav-qa-5]
+    - 3.6. [Dispatching][nav-qa-6]
+    - 3.7. [Module System][nav-qa-7]
+    - 3.8. [Move Semantics][nav-qa-8]
+    - 3.9. [Immutability][nav-qa-9]
+    - 3.10. [RAII][nav-qa-10]
+    - 3.11. [Lifetimes][nav-qa-11]
+    - 3.12. [Iterators][nav-qa-12]
+    - 3.13. [Macros][nav-qa-13]
+    - 3.14. [Testing][nav-qa-14]
+    - 3.15. [Memory Layout][nav-qa-15]
+    - 3.16. [Slices][nav-qa-16]
+    - 3.17. [OOP][nav-qa-17]
   
 ---
 ## 1. General information
@@ -23,7 +40,7 @@ __Estimated time__: 4 days
 After completing these steps, including [this theory][nav-2], you should be able to answer (and understand why) the following questions [below][nav-3].
 
 ---
-## 2. Section Theory
+## 2. Theory Section
 
 _Additional_ articles, which may help to understand the above topic better:
 - [Chris Morgan: Rust ownership, the hard way][1]
@@ -63,7 +80,7 @@ Additional:
 ## 3. Knowledge check-in
 
 <details>
-  <summary><h2>1. Multithreading & Memory model</h2></summary>
+  <summary><h3>1. Multithreading & Memory model</h3></summary>
 
 #### 1. What memory model [Rust] has?
 > ?
@@ -88,7 +105,7 @@ Additional:
 
 
 <details>
-<summary><h2>2. Runtime</h2></summary>
+<summary><h3>2. Runtime</h3></summary>
 
 #### 2.1 What runtime [Rust] has?
 > ?
@@ -101,7 +118,7 @@ Additional:
 
 
 <details>
-  <summary><h2>3. Typing System</h2></summary>
+  <summary><h3>3. Typing System</h3></summary>
 
 #### 3.1 What statically typing means?
 > ?
@@ -126,7 +143,7 @@ Additional:
 
 
 <details>
-<summary><h2>4. Generics</h2></summary>
+<summary><h3>4. Generics</h3></summary>
     
 #### 4.1. What are generics and parametric polymorphism?
 > ?
@@ -139,7 +156,7 @@ Additional:
 
 
 <details>
-<summary><h2>5. Traits</h2></summary>
+<summary><h3>5. Traits</h3></summary>
 
 #### 5.1. What are traits?
 > ?
@@ -165,7 +182,7 @@ Additional:
 
 
 <details>
-<summary><h2>6. Dispatching. Monomorphisation</h2></summary>
+<summary><h3>6. Dispatching. Monomorphisation</h3></summary>
 
 #### 6.1. What are static and dynamic dispatching?
 > ?
@@ -181,7 +198,7 @@ Additional:
 
 
 <details>
-<summary><h2>7. Crates & Module System</h2></summary>
+<summary><h3>7. Crates & Module System</h3></summary>
     
 #### 7.1. What is a crate, module and package in Rust?
 > ?
@@ -200,7 +217,7 @@ Additional:
 
 
 <details>
-<summary><h2>8. Cloning & Move semantics</h2></summary>
+<summary><h3>8. Cloning & Move semantics</h3></summary>
 
 #### 8.1. What is cloning?
 > ?
@@ -231,7 +248,7 @@ Additional:
 
 
 <details>
-<summary><h2>9. Immutability</h2></summary>
+<summary><h3>9. Immutability</h3></summary>
 
 #### 9.1. What is immutability?
 > ?
@@ -247,7 +264,7 @@ Additional:
     
 
 <details>
-<summary><h2>10. RAII</h2></summary>
+<summary><h3>10. RAII</h3></summary>
 
 #### 10.1. What is RAII?
 > ?
@@ -260,7 +277,7 @@ Additional:
 
 
 <details>
-<summary><h2>11. Lifetimes</h2></summary>
+<summary><h3>11. Lifetimes</h3></summary>
 
 #### 11.1. What are lifetimes?
 > ?
@@ -276,7 +293,7 @@ Additional:
 
 
 <details>
-<summary><h2>12. Iterators & Collections</h2></summary>
+<summary><h3>12. Iterators & Collections</h3></summary>
 
 #### 12.1. What is an iterator?
 > ?
@@ -295,7 +312,7 @@ Additional:
 
 
 <details>
-<summary><h2>13. Macro System</h2></summary>
+<summary><h3>13. Macro System</h3></summary>
 
 #### 13.1. What are macros?
 > ?
@@ -311,7 +328,7 @@ Additional:
 
 
 <details>
-<summary><h2>14. Testing</h2></summary>
+<summary><h3>14. Testing</h3></summary>
 
 #### 14.1. How code is tested in [Rust]?
 > ?
@@ -324,7 +341,7 @@ Additional:
 
 
 <details>
-<summary><h2>15. Memory Layout & Pointers</h2></summary>
+<summary><h3>15. Memory Layout & Pointers</h3></summary>
 
 #### 15.1. What is layout of Rust standard data types?
 > ?
@@ -337,7 +354,7 @@ Additional:
 
 
 <details>
-<summary><h2>16. Strings & Slices</h2></summary>
+<summary><h3>16. Strings & Slices</h3></summary>
 
 #### 16.1. What is special about slice?
 > ?
@@ -362,7 +379,7 @@ Additional:
 
 
 <details>
-<summary><h2>17. OOP & Patterns</h2></summary>
+<summary><h3>17. OOP & Patterns</h3></summary>
 
 #### 17.1. Is [Rust] OOP language? 
 > ?
@@ -386,8 +403,29 @@ Additional:
 [nav-1]: #1-general-information
 [nav-1-1]: #requirements
 [nav-1-2]: #prerequisites
-[nav-2]: #2-section-theory
+
+[nav-2]: #2-theory-section
+
 [nav-3]: #3-knowledge-check-in
+[nav-qa-1]: #1-multithreading--memory-model
+[nav-qa-2]: #2-runtime
+[nav-qa-3]: #3-typing-system
+[nav-qa-4]: #4-generics
+[nav-qa-5]: #5-traits
+[nav-qa-6]: #6-dispatching-monomorphisation
+[nav-qa-7]: #7-crates--module-system
+[nav-qa-8]: #8-cloning--move-semantics
+[nav-qa-9]: #9-immutability
+[nav-qa-10]: #10-raii
+[nav-qa-11]: #11-lifetimes
+[nav-qa-12]: #12-iterators--collections
+[nav-qa-13]: #13-macro-system
+[nav-qa-14]: #14-testing
+[nav-qa-15]: #15-memory-layout--pointers
+[nav-qa-16]: #16-strings--slices
+[nav-qa-17]: #17-oop--patterns
+
+
 
 
 [Cargo]: https://github.com/rust-lang/cargo
