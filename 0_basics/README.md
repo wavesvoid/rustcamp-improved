@@ -1,38 +1,29 @@
-Step 0: Building Up an Vocabulary
+# Step 0: Building Up an Vocabulary
 ========================================
-
+## Contents
+1. [General information][nav-1]
+    - [Requirements][nav-1-1]
+    - [Prerequisites][nav-1-2]
+2. [Theoretical information][nav-2]
+3. [Knowledge check-in][nav-3]
+  
+---
+## 1. General information
 __Estimated time__: 4 days
 
-> ❗️ To meet the first deadline, please open a Pull Request by Sunday of  the first week and include answers to at least one question in it.
+#### Requirements
+> ❗️ To meet the first deadline, please open a Pull Request by Sunday of the first week and include answers to at least one question in it.
+> After you're done notify your lead in an appropriate PR (pull request), and he will exam what you have learned.
 
-Read through [Rust Book], [Rust FAQ], and become familiar with basic [Rust] concepts, syntax, memory model, type and module systems.
+#### Prerequisites
+- Read through [Rust Book], [Rust FAQ], and become familiar with basic [Rust] concepts, syntax, memory model, type and module systems.
+- Polish your familiarity by completing [Rust By Example] and [rustlings].
+- Read through [Cargo Book] and become familiar with [Cargo] and its workspaces.
 
-Polish your familiarity by completing [Rust By Example] and [rustlings].
+After completing these steps, including [this theory][nav-2], you should be able to answer (and understand why) the following questions [below][nav-3].
 
-Read through [Cargo Book] and become familiar with [Cargo] and its workspaces.
-
-After completing these steps, you should be able to answer (and understand why) the following questions:
-- What memory model [Rust] has? Is it single-threaded or multiple-threaded? Is it synchronous or asynchronous? What is the memory layout of the box and vector? What are heap and stack? Where, but on heap and stack data could live in RAM?
-- What runtime [Rust] has? Does it use a GC (garbage collector)?
-- What statically typing means? What is a benefit of using it? Weak typing vs strong typing? Implicit / explicit?
-- What are generics and parametric polymorphism? Which problems do they solve?
-- What is nominative typing and structural typing? What is difference?
-- What are traits? How are they used? How do they compare to interfaces? What are an auto trait and a blanket impl? Uncovered type? What is a marker trait?
-- What are static and dynamic dispatches? Which should I use, and when? What is monomorphisation?
-- What is a crate, module and package in Rust? How do they differ? How are the used? What is workspace?
-- What is cloning? What is copying? How do they compare? What is for trait drop? What is special about the trait?
-- What is immutability? What is the benefit of using it? What is the difference between immutability and const?
-- What are move semantics? What are borrowing rules? What is the benefit of using them?
-- What is RAII? How is it implemented in [Rust]? What is the benefit of using it?
-- What are lifetimes? Which problems do they solve? Which benefits do they give?
-- What is an iterator? What is a collection? How do they differ? How are they used?
-- What are macros? Which problems do they solve? What is the difference between declarative and procedural macro?
-- How code is tested in [Rust]? Where should you put tests and why?
-- What is special about slice? What is layout of Rust standard data types? Difference between fat and thin pointers?
-- Why [Rust] has `&str` and `String` types? How do they differ? When should you use them? Why str slice coexist with slice? What is differnece between `String` and `Vec`?
-- Is [Rust] OOP language? Is it possible to use SOLID/GRASP? Does it have an inheritance? Is Rust functional language? What variance rules does Rust have?
-
-After you're done notify your lead in an appropriate PR (pull request), and he will exam what you have learned.
+---
+## 2. Section Theory
 
 _Additional_ articles, which may help to understand the above topic better:
 - [Chris Morgan: Rust ownership, the hard way][1]
@@ -66,6 +57,39 @@ Additional:
 - [Step-by-step instruction to start development in Rust][26]
 - [Awesome collection of crates for productive development in Rust][27]
 - [Awesome Collection of Materials to Learn Rust][28]
+
+
+---
+## 3. Knowledge check-in
+
+- What memory model [Rust] has? Is it single-threaded or multiple-threaded? Is it synchronous or asynchronous? What is the memory layout of the box and vector? What are heap and stack? Where, but on heap and stack data could live in RAM?
+- What runtime [Rust] has? Does it use a GC (garbage collector)?
+- What statically typing means? What is a benefit of using it? Weak typing vs strong typing? Implicit / explicit?
+- What are generics and parametric polymorphism? Which problems do they solve?
+- What is nominative typing and structural typing? What is difference?
+- What are traits? How are they used? How do they compare to interfaces? What are an auto trait and a blanket impl? Uncovered type? What is a marker trait?
+- What are static and dynamic dispatches? Which should I use, and when? What is monomorphisation?
+- What is a crate, module and package in Rust? How do they differ? How are the used? What is workspace?
+- What is cloning? What is copying? How do they compare? What is for trait drop? What is special about the trait?
+- What is immutability? What is the benefit of using it? What is the difference between immutability and const?
+- What are move semantics? What are borrowing rules? What is the benefit of using them?
+- What is RAII? How is it implemented in [Rust]? What is the benefit of using it?
+- What are lifetimes? Which problems do they solve? Which benefits do they give?
+- What is an iterator? What is a collection? How do they differ? How are they used?
+- What are macros? Which problems do they solve? What is the difference between declarative and procedural macro?
+- How code is tested in [Rust]? Where should you put tests and why?
+- What is special about slice? What is layout of Rust standard data types? Difference between fat and thin pointers?
+- Why [Rust] has `&str` and `String` types? How do they differ? When should you use them? Why str slice coexist with slice? What is differnece between `String` and `Vec`?
+- Is [Rust] OOP language? Is it possible to use SOLID/GRASP? Does it have an inheritance? Is Rust functional language? What variance rules does Rust have?
+
+
+
+[nav-1]: #1-general-information
+[nav-1-1]: #requirements
+[nav-1-2]: #prerequisites
+[nav-2]: #2-section-theory
+[nav-3]: #3-knowledge-check-in
+
 
 [Cargo]: https://github.com/rust-lang/cargo
 [Cargo Book]: https://doc.rust-lang.org/cargo
