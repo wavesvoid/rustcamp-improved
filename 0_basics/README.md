@@ -274,6 +274,7 @@ Additional:
 
 #### 10.3. What is the benefit of using it?
 > ?
+</details>
 
 
 <details>
